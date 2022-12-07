@@ -14,105 +14,76 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- navbar -->
-    <!-- nav button -->
-    <span class="nav-btn" id="nav-btn">
-      <i class="fas fa-bars"></i>
-    </span>
+  <!-- navbar -->
+
+    <span class="navbar-button" id="nav-button">
+      <i class="fas fa-bars nav-icon" ></i>
+    </span> 
     <nav class="navbar" id="navbar">
-      <div class="navbar-header">
-        <span class="nav-close" id="nav-close">
-          <i class="fas fa-times"></i>
-        </span>
+      <div class="nav-header">
+        <span class="nav-close"><i class="fas fa-times"></i></span>
       </div>
-      <ul class="nav-items">
+      <ul class="nav-links">
         <li><a href="index.html" class="nav-link">home</a></li>
         <li><a href="skills.html" class="nav-link">skills</a></li>
         <li><a href="about.html" class="nav-link">about</a></li>
         <li><a href="products.html" class="nav-link">products</a></li>
       </ul>
     </nav>
-    <!-- header  -->
-    <header class="header">
-      <div class="banner">
-        <h2>Over one hundred flavors of</h2>
-        <h1>
-          specially <br />
-          crafted tea
-        </h1>
-        <a href="skills.html" class="btn banner-btn">
-          explore
-        </a>
+    <!-- header -->
+    <header>
+      <div class="header-banner">
+        <h2>over one hundred thosand flavors <br>of</h2>
+        <h1>specially crafted tea</h1>
+        <a href="#" class="btn btn-banner">explore</a>
       </div>
     </header>
-    <!-- end of header  -->
-    <div class="content-divider"></div>
-    <!-- skills section -->
+    <div class="divider"></div>
+    <!-- skills  -->
     <section class="skills clearfix">
-      <!-- single skill -->
+
       <article class="skill">
-        <span class="skill-icon">
+        <span class="skills-icon">
           <i class="fas fa-mug-hot"></i>
         </span>
         <h4 class="skill-title">made in US</h4>
-        <p class="skill-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis,
-          rerum?
-        </p>
+        <p class="skill-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, labore!</p>
       </article>
-      <!-- end of single skill -->
-      <!-- single skill -->
+
       <article class="skill">
-        <span class="skill-icon">
+        <span class="skills-icon">
           <i class="fas fa-glass-cheers"></i>
         </span>
         <h4 class="skill-title">relaxation</h4>
-        <p class="skill-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis,
-          rerum?
-        </p>
+        <p class="skill-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, labore!</p>
       </article>
-      <!-- end of single skill -->
-      <!-- single skill -->
+
       <article class="skill">
-        <span class="skill-icon">
+        <span class="skills-icon">
           <i class="fas fa-bomb"></i>
         </span>
         <h4 class="skill-title">energy</h4>
-        <p class="skill-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis,
-          rerum?
-        </p>
+        <p class="skill-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, labore!</p>
       </article>
-      <!-- end of single skill -->
-      <!-- single skill -->
+
       <article class="skill">
-        <span class="skill-icon">
+        <span class="skills-icon">
           <i class="fas fa-mortar-pestle"></i>
         </span>
-        <h4 class="skill-title">family recipe</h4>
-        <p class="skill-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis,
-          rerum?
-        </p>
+        <h4 class="skill-title">family recips</h4>
+        <p class="skill-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, labore!</p>
       </article>
-      <!-- end of single skill -->
+
     </section>
-    <!-- end of skills section -->
+
     <!-- about -->
     <section>
       <div class="section-center clearfix">
-        <!-- about-img -->
         <article class="about-img">
-          <div class="about-picture-container">
-            <img
-              src="./images/about-bcg.jpeg"
-              alt="tea kettle"
-              class="about-picture"
-            />
+          <div class="about-img-container">
+            <img src="./images/about-bcg.jpeg" alt="about image person" class="about-picture">
           </div>
         </article>
-        <!-- about-info -->
         <article class="about-info">
           <!-- section title -->
           <div class="section-title">
@@ -121,270 +92,178 @@
           </div>
           <!-- end of section title -->
           <p class="about-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            repellendus reprehenderit iure, vero nobis dolore!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias animi est impedit architecto modi.
           </p>
+
           <p class="about-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            repellendus reprehenderit iure, vero nobis dolore!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias animi est impedit architecto modi.
           </p>
-          <a href="about.html" class="btn">learn more</a>
+          <a href="about-html" class="btn">learn more</a>
         </article>
       </div>
     </section>
-    <!-- end of about -->
-    <!-- products -->
-    <section class="products">
-      <div class="section-center clearfix">
-        <!-- products info -->
-        <article class="products-info">
-          <!-- section title -->
-          <div class="section-title">
-            <h3>check out</h3>
-            <h2>our products</h2>
-          </div>
-          <!-- end of section title -->
-          <p class="product-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            quidem, repellat praesentium esse ducimus odit alias nulla laborum
-            doloremque voluptatum, a cum magnam iure accusamus.
-          </p>
-          <a href="products.html" class="btn">inventory</a>
-        </article>
-        <!-- products inventory -->
-        <article class="products-inventory clearfix">
-          <!-- single product -->
-          <div class="product">
-            <img
-              src="./images/product-1.jpeg"
-              alt="single product"
-              class="product-img"
-            />
-            <h4 class="product-title">ginger peach tea</h4>
-            <h4 class="product-price">$6.99</h4>
-          </div>
-          <!-- end of single product -->
-          <!-- single product -->
-          <div class="product">
-            <img
-              src="./images/product-2.jpeg"
-              alt="single product"
-              class="product-img"
-            />
-            <h4 class="product-title">fruit sangria</h4>
-            <h4 class="product-price">$6.99</h4>
-          </div>
-          <!-- end of single product -->
-          <!-- single product -->
-          <div class="product">
-            <img
-              src="./images/product-3.jpeg"
-              alt="single product"
-              class="product-img"
-            />
-            <h4 class="product-title">white tea</h4>
-            <h4 class="product-price">$6.99</h4>
-          </div>
-          <!-- end of single product -->
-        </article>
-      </div>
-    </section>
-    <!-- end of products -->
-    <!-- services -->
-    <section class="services">
-      <!-- section title -->
-      <div class="section-title services-title">
-        <h3>explore</h3>
-        <h2>our services</h2>
+
+<!-- product -->
+<section class="products">
+  <div class="section-center clearfix">
+    <article class="product-info">
+       <!-- section title -->
+       <div class="section-title">
+        <h3>checkout our</h3>
+        <h2>product</h2>
       </div>
       <!-- end of section title -->
-      <div class="section-center clearfix">
-        <!-- single card -->
-        <article class="service-card">
-          <!-- img container -->
-          <div class="service-img-container">
-            <!-- img -->
-            <img
-              src="./images/product-1.jpeg"
-              class="service-img"
-              alt="single service"
-            />
-            <!-- service icon -->
+      <p class="product-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed perferendis dolores, quae unde ullam repudiandae eum aut nisi magni dolore, nesciunt atque eveniet seq class="product-image"ui cumque.</p>
+      <a href="product.html" class="btn">inventory</a>
+    </article>
+    <article class="product-inventory clearfix">
+      <div class="product">
+        <img src="./images/product-1.jpeg" alt="product image" class="product-image">
+         <h4>ginger peach tea</h4>
+         <h4 class="price">6.9$</h4>
+      </div>
+
+      <div class="product">
+        <img src="./images/product-2.jpeg" alt="product image" class="product-image">
+         <h4>fruit sangaria</h4>
+         <h4 class="price">9$</h4>
+      </div>
+
+      <div class="product">
+        <img src="./images/product-3.jpeg" alt="product image" class="product-image">
+         <h4>white tea</h4>
+         <h4 class="price">12$</h4>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- services -->
+<section>
+   <!-- section title -->
+   <div class="section-title services-title">
+    <h3>explore</h3>
+    <h2>our services</h2>
+  </div>
+  <!-- end of section title -->
+  <article class="services section-center clearfix">
+    <div class="service-card">
+      <div class="services-img-container">
+        <img src="./images/product-1.jpeg" alt="" class="product-picture
+        ">
+        <span class="service-icon">
+          <i class="fas fa-mortar-pestle fa-fw"></i>
+        </span>
+      </div>
+      <div class="service-info">
+        <h4>custom recipes</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, incidunt? Fuga dignissimos vel similique ex?</p>
+        <a href="products.html" class="service-btn btn">read more</a>
+      </div>
+    </div>
+      <div class="service-card">
+        <div class="services-img-container">
+          <img src="./images/product-2.jpeg" alt="" class="product-picture
+          ">
+          <span class="service-icon">
+            <i class="fas fa-mortar-pestle fa-fw"></i>
+          </span>
+        </div>
+        <div class="service-info">
+          <h4>home delivery</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, incidunt? Fuga dignissimos vel similique ex?</p>
+          <a href="products.html" class="service-btn btn">read more</a>
+        </div> 
+      </div>
+
+        <div class="service-card">
+          <div class="services-img-container">
+            <img src="./images/product-3.jpeg" alt="" class="product-picture
+            ">
             <span class="service-icon">
               <i class="fas fa-mortar-pestle fa-fw"></i>
             </span>
           </div>
-          <!-- service info -->
           <div class="service-info">
-            <h4>custom recipes</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              labore sed deserunt, blanditiis error doloremque.
-            </p>
-            <a href="products.html" class="btn service-btn">read more</a>
+            <h4>tea ageing</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, incidunt? Fuga dignissimos vel similique ex?</p>
+            <a href="products.html" class="service-btn btn"> read more</a>
           </div>
-        </article>
-        <!--end of  single card -->
-        <!-- single card -->
-        <article class="service-card">
-          <!-- img container -->
-          <div class="service-img-container">
-            <!-- img -->
-            <img
-              src="./images/product-2.jpeg"
-              class="service-img"
-              alt="single service"
-            />
-            <!-- service icon -->
-            <span class="service-icon">
-              <i class="fas fa-home fa-fw"></i>
-            </span>
-          </div>
-          <!-- service info -->
-          <div class="service-info">
-            <h4>home delivery</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              labore sed deserunt, blanditiis error doloremque.
-            </p>
-            <a href="products.html" class="btn service-btn">read more</a>
-          </div>
-        </article>
-        <!--end of  single card -->
-        <!-- single card -->
-        <article class="service-card">
-          <!-- img container -->
-          <div class="service-img-container">
-            <!-- img -->
-            <img
-              src="./images/product-3.jpeg"
-              class="service-img"
-              alt="single service"
-            />
-            <!-- service icon -->
-            <span class="service-icon">
-              <i class="fas fa-mug-hot fa-fw"></i>
-            </span>
-          </div>
-          <!-- service info -->
-          <div class="service-info">
-            <h4>tea aging</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              labore sed deserunt, blanditiis error doloremque.
-            </p>
-            <a href="products.html" class="btn service-btn">read more</a>
-          </div>
-        </article>
-        <!--end of  single card -->
-      </div>
-    </section>
-    <!-- end of services -->
-    <!-- contact -->
-    <section class="contact">
-      <div class="section-center clearfix">
-        <!-- contact info -->
-        <article class="contact-info">
-          <!-- contact item -->
-          <div class="contact-item">
-            <h4 class="contact-title">
-              <span class="contact-icon">
-                <i class="fas fa-location-arrow"></i>
-              </span>
-              address
-            </h4>
-            <h4 class="contact-text">
-              523 N Fairfax Ave <br />
-              Los Angeles, CA 90048
-            </h4>
-          </div>
-          <!-- end of contact item -->
-          <!-- contact item -->
-          <div class="contact-item">
-            <h4 class="contact-title">
-              <span class="contact-icon">
-                <i class="fas fa-envelope"></i>
-              </span>
-              email
-            </h4>
-            <h4 class="contact-text">
-              email@email.com
-            </h4>
-          </div>
-          <!-- end of contact item -->
-          <!-- contact item -->
-          <div class="contact-item">
-            <h4 class="contact-title">
-              <span class="contact-icon">
-                <i class="fas fa-phone"></i>
-              </span>
-              telephone
-            </h4>
-            <h4 class="contact-text">
-              + 123 456 789
-            </h4>
-          </div>
-          <!-- end of contact item -->
-        </article>
-        <!-- contact form -->
-        <article class="contact-form">
-          <h3>contact us</h3>
-          <form>
-            <div class="form-group">
-              <!-- inputs -->
-              <input
-                type="text"
-                placeholder="name"
-                class="form-control"
-                name="name"
-              />
-              <input
-                type="email"
-                placeholder="email"
-                class="form-control"
-                name="email"
-              />
-              <textarea
-                name="message"
-                placeholder="message"
-                class="form-control"
-                rows="5"
-              ></textarea>
-            </div>
-            <!-- button -->
-            <button type="submit" class="submit-btn btn">submit here</button>
-          </form>
-        </article>
-      </div>
-    </section>
-    <!-- end of contact -->
-    <!-- footer -->
-    <footer class="footer">
-      <div class="section-center">
-        <div class="social-icons">
-          <!-- social icon -->
-          <a href="#" class="social-icon">
-            <i class="fab fa-facebook"></i>
-          </a>
-          <!-- end of social icon -->
-          <!-- social icon -->
-          <a href="#" class="social-icon">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <!-- end of social icon -->
-          <!-- social icon -->
-          <a href="#" class="social-icon">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <!-- end of social icon -->
         </div>
-        <h4 class="footer-text">
-          &copy;<span id="date"></span>
-          <span class="company">tea station</span>
-          all rights reserved
-        </h4>
+  </article>
+</section>
+
+<!-- contact -->
+<section class="contact">
+  <div class="section-center clearfix">
+    <article class="contact-info">
+      <!-- contact-item -->
+      <div class="contact-item">
+        <h4 class="contact-title">
+          <span class="contact-icon">
+            <i class="fas fa-location-arrow"></i>
+          </span>
+        address
+      </h4>
+      <h4 class="contact-text">73 oremeji str <br>abuleegba lagos state</h4>
       </div>
-    </footer>
-    <script src="app.js"></script>
+      <!-- end of contact item -->
+
+       <!-- contact-item -->
+       <div class="contact-item">
+        <h4 class="contact-title">
+          <span class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </span>
+        email
+      </h4>
+      <h4 class="contact-text">victoroguntayo@gmail.com</h4>
+      </div>
+      <!-- end of contact item -->
+
+       <!-- contact-item -->
+       <div class="contact-item">
+        <h4 class="contact-title">
+          <span class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </span>
+        phone
+      </h4>
+      <h4 class="contact-text"> 08130887338</h4>
+      </div>
+      <!-- end of contact item -->
+    </article>
+
+    <article class="contact-form">
+      <h3>contact us</h3>
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="name" name="name" class="form-control">
+
+          <input type="email" placeholder="email" name="email" class="form-control">
+
+         <textarea name="message" placeholder="message"  rows="5" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="submit-btn btn">submit here</button>
+      </form>
+
+    </article>
+  </div>
+</section>
+
+<!-- footer -->
+<section class="footer">
+  <div class="section-center">
+    <div class="social-icons">
+      <a href="3"><i class="fab fa-facebook"></i></a>      
+      <a href="3"><i class="fab fa-instagram"></i></a>      
+      <a href="3"><i class="fab fa-twitter"></i></a>      
+
+    </div>
+    <h4 class="footer-text">&copy;<span id="date">2002 </span><span class="company">tea station</span> all right reserved</h4>
+  </div>
+</section>
+
+<script src="index.js"></script>
   </body>
 </html>
